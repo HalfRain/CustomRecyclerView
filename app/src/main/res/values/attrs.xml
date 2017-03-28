@@ -1,0 +1,11 @@
+<resources>
+    <declare-styleable name="CustomRecycleView">
+        <attr name="recLayoutManagerType">
+            <enum name="LinearLayout" value="0"></enum>
+            <enum name="GridLayout" value="1"></enum>
+        </attr>
+        <attr name="recSpanCount" format="integer" />
+        <attr name="recAdapterLayout" format="reference" />
+        <attr name="recBackgroundColor" format="color" />
+    </declare-styleable>
+</resources>
